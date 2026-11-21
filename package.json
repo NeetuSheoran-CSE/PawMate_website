@@ -11,6 +11,7 @@
     "seed": "npm --prefix backend run seed",
     "seed:reset": "npm --prefix backend run seed -- --reset",
     "build": "npm --prefix frontend run build",
+    "vercel-build": "npm --prefix backend install --include=dev",
     "start": "npm --prefix backend start",
     "test:backend": "npm --prefix backend test"
   },
