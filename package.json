@@ -2,6 +2,7 @@
   "name": "pawmate",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "PawMate: connects busy pet owners with trusted pet walkers (frontend + backend)",
   "scripts": {
     "install:all": "npm install && npm --prefix frontend install && npm --prefix backend install",
